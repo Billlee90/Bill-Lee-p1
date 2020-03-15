@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - photography</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sen">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+</head>
+<body onload="display_date();">
+    <main>
+        <Header>
+            <!-- Title -->
+            <h1>Lee Photography</h1>
+        </Header>
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+        <!-- Greeting -->
+        <p id="greeting"></p>
+        <!-- Date -->
+        <p id="time"></p>
+        <!-- Photo Packages -->
+        <div>
+           <table>
+               <!-- Table Description -->
+               <tr class="tableDescription">
+                   <th>Packages</th>
+                   <th>Information</th>
+                   <th>Prices</th>
+               </tr>
+               <!-- Family Package -->
+               <tr>
+                   <!-- Photo -->
+                   <td>
+                       <figure>
+                            <img class="image" src="images/familypic.jpeg" alt="Family Photo">
+                        </figure>
+                        <figcaption>Family Photo</figcaption>
+                    </td>
+                   <!-- Description -->
+                   <td>
+                       <ul class="infoDescription">
+                           <li>Lorem ipsum dolor sit amet</li>
+                           <li>Sonsectetur adipiscing elit.</li>  
+                           <li>Nulla tempor nunc lorem, lobortis vitae.</li>
+                       </ul>
+                   </td>
+                   <!-- Price -->
+                   <td class="price">Price: $<span id="familyPrice"></span><br>
+                    Discount <span id="familyDiscount"></span>&#37;&#58; $<span id="familyDiscountPrice"></span>
+                   </td>
+               </tr>
+               <!-- Single Package -->
+               <tr>
+                   <!-- Photo -->
+                <td>
+                    <figure>
+                        <img class="image" src="images/solopic.jpeg" alt="Solo Photo">
+                    </figure>
+                    <figcaption>Single Photo</figcaption>
+                </td>
+                    <!-- Description -->
+                   <td>
+                        <ul class="infoDescription">
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Sonsectetur adipiscing elit.</li>  
+                            <li>Nulla tempor nunc lorem, lobortis vitae.</li>
+                        </ul>
+                    </td>
+                   <!-- Price -->
+                   <td class="price">Price: $<span id="singlePrice"></span><br>
+                        <span class="promoton"></span> Discount <span id="singleDiscount"></span>&#37;&#58; $<span id="singleDiscountPrice"></span>
+                        </td>
+               </tr>
+           </table> 
+        </div>
+
+
+    </main>
+    <footer>
+        <p>copyright &copy; 2020</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

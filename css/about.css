@@ -1,0 +1,81 @@
+/*simple Website CSS - Project 1 - About page */
+body{
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+main {
+    width: 90%;
+    min-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 12em;
+    background-color: lightseagreen;
+    color: cornsilk;
+}
+header h1 {
+    color: rgb(255, 255, 255) 153);
+    text-align: center;
+    font-family: cursive,sans-serif;
+    font-size: 3em;
+}
+nav {
+    color: dodgerblue;
+    padding: 1em 1em;
+    text-align: center;
+    margin: 2em;
+    border-bottom: solid;
+}
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 2em;
+    margin: .6em;
+}
+nav a:visited {
+    color: rgb(245, 244, 243);
+}
+nav a:hover {
+    color:dodgerblue;
+}
+section {
+    width: 75%;
+    float: right;
+    padding: 2.5%;
+    column-count: 2;
+    column-rule: 1px solid blue;
+    column-gap: 6%;
+}
+section h1 {
+    color: blue;
+    font-family: cursive,sans-serif;
+}
+aside {
+    width: 10%;
+    float: left;
+    padding: 1%;
+    font-family: cursive,sans-serif;
+}
+aside h2 {
+    color: blue;
+}
+
+.links:visited { 
+    color: red;
+}
+.links {
+    color: darkgoldenrod;
+}
+.links:hover {
+    color: teal;
+}
+.img1 {
+    width: 100%;
+    border: 5px double darkgoldenrod;
+    align-self: flex-start;
+}
+footer {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: cursive,sans-serif;
+    color: darkgoldenrod;
+    padding: 40%;
+}

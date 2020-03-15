@@ -1,0 +1,83 @@
+/*simple Website CSS - Project 1 - Home page */
+body{
+    background-color: antiquewhite;
+    margin-top: 50px;
+    border-style: double;
+    border-color: darkgoldenrod;
+    min-width: 700px;
+}
+main {
+    margin: 60px;
+}
+header h1 {
+    color: darkcyan;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    font-size: 3em;
+
+}
+#greeting {
+    color: darkcyan;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    font-size: 2em;
+}
+#time {
+    color: darkcyan;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    font-size: 1em;
+
+}
+nav {
+    padding: 1em 1em;
+    text-align: center;
+    border-bottom: solid teal;
+    border-top: solid teal;
+}
+nav a {
+    color: teal;
+    font-size: 1.5em;
+    text-decoration: none;
+    line-height: 2em;
+    margin: .6em;
+}
+nav a:visited {
+    color: darkgoldenrod;
+}
+nav a:hover {
+    color:darkcyan;
+}
+#firstH2 {
+    font-size: 2em;
+    text-align: center;
+    color: teal;
+}
+div {
+    color: rgba(199, 62, 50, 0.6);
+    text-align: center;
+    font-family: cursive,sans-serif;
+    font-size: 1.4em;
+    border-top: 2px solid #fe232f;
+    padding: 1em;
+}
+.tableDescription {
+    text-decoration: underline;
+}
+.infoDescription {
+    padding: 2em;
+    text-align: left;
+    border-left: 1px solid #fe232f;
+}
+.price {
+    padding: 1em;
+    border-left: 1px solid #fe232f;
+}
+.image {
+    border: 3px solid #fe232f;
+}
+footer {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 1.2em;
+}
